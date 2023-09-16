@@ -3,8 +3,8 @@ services:
     build: .
     volumes:
     - type: bind
-      source: ./git-code
+      source: ./filesystems/git-code
       target: /git-code
     - type: bind
-      source: ./terraform.d
+      source: ../filesystems/terraform.d
       target: /root/.terraform.d/ 
