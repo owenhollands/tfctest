@@ -1,0 +1,10 @@
+services:
+  tfworkstation:
+    build: .
+    volumes:
+    - type: bind
+      source: ./git-code
+      target: /git-code
+    - type: bind
+      source: ./terraform.d
+      target: /root/.terraform.d/ 
