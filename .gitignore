@@ -1,0 +1,5 @@
+filesystems/git-code/.terraform.lock.hcl
+filesystems/git-code/terraform.tfstate
+filesystems/git-code/.terraform.tfstate.lock.info
+filesystems/git-code/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.2/linux_386/terraform-provider-azurerm_v3.0.2_x5
+terraform.d/checkpoint_signature
