@@ -44,7 +44,7 @@ resource "azurerm_iothub" "this" {
   name                         = "hub1iothub"
   resource_group_name          = azurerm_resource_group.rg.name
   location                     = azurerm_resource_group.rg.location
-  local_authentication_enabled = false
+
 
   sku {
     name     = "S1"
