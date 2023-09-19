@@ -73,7 +73,7 @@ resource "azurerm_iothub" "this" {
   enrichment {
     key            = "tenant"
     value          = "$twin.tags.Tenant"
-    endpoint_names = ["export", "export2"]
+    endpoint_names = ["hub1epstorcon", "hub1epeh"]
   }
 
   cloud_to_device {
