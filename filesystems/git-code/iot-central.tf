@@ -10,8 +10,8 @@ resource "azurerm_iotcentral_application" "example" {
   sub_domain          = "iotcentral-app-subdomain-01"
 
   display_name = "iotcentral-app-display-name-01"
-  sku          = "ST1"
-  template     = "iotc-default@1.0.0"
+  sku          = "ST0"
+  template     = "iotc-pnp-preview"
 
   tags = {
     Foo = "Bar"
