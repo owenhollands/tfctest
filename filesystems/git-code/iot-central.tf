@@ -14,9 +14,9 @@ resource "azurerm_iotcentral_application" "example" {
   template     = "iotc-pnp-preview"
 
   identity {
-    type = SystemAssigned
+    type = "SystemAssigned"
   }
-  public_network_access_enabled = true
+  public_network_access_enabled = "true"
 
 
   tags = {
