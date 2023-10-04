@@ -1,3 +1,13 @@
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "=3.75.0"
+    }
+  }
+}
+
+
 resource "azurerm_resource_group" "iotcentral-rg-01" {
   name     = "iot-hub-central-01"
   location = "West Europe"
