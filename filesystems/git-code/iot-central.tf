@@ -13,6 +13,12 @@ resource "azurerm_iotcentral_application" "example" {
   sku          = "ST1"
   template     = "iotc-pnp-preview"
 
+  identity {
+    type = SystemAssigned
+  }
+  public_network_access_enabled = true
+
+
   tags = {
     Foo = "Bar"
   }
