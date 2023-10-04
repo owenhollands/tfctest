@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "iotcentral-rg-01" {
   name     = "iot-hub-central-01"
   location = "West Europe"
 }
